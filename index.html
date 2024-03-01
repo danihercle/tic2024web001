@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>HTML I</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+<img src="https://www.ngenespanol.com/animales/tortugas-marinas-informacion-caracteristicas-y-datos-que-no-conocias/" height="250" width="400" />
+<div class="bloque1">
+<h1>TORTUGAS MARINAS</h1>
+<section>
+<h2>INTRODUCCIÓN</h2>
+<p>las tortugas son tortugas que viven en aguas profundas</p>
+</section>
+</div>
+<div class="bloque2">
+<section>
+<h2>OTRA INFORMACIÓN </h2>
+<p>TIPOS</p>
+<ul>
+<li>Tortuga Verde</li>
+<li>Tortuga Lora</li>
+<li>Tortuga Golfina</li>
+</ul>
+</section>
+<section>
+<h2>ENLACES INFORMACIÓN</h2>
+<ol>
+<li><a href="#">Enlace 1</a></li>
+<li><a href="#">Enlace 2</a></li>
+<li><a href="#">Enlace 3</a></li>
+</ol>
+</section>
+</div>
+<center>
+<button onclick="mostrarCreditos()">Créditos</button>
+<button onclick="ocultarBloque1()">Ocultar Bloque 1</button>
+<button onclick="mostrarBloque1()">Mostrar Bloque 1</button>
+<button onclick="cambiarColorBloque1()">Cambiar Color Bloque 1</button>
+<button onclick="obtenerUbicacion()">Obtener Ubicación</button>
+</center>
+<div id="mapa" style="height: 400px; width: 100%;"></div>
+<center>
+<h4>Copyright 2023</h4>
+</center>
+<script src="script.js"></script>
+</body>
+</html>
